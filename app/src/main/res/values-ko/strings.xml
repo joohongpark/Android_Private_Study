@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">test_layout</string>
+    <string name="bottom_menu_phone_block">차단 목록</string>
+    <string name="bottom_menu_option">설정</string>
+    <string name="bottom_menu_more">기타</string>
+    <string name="block_phone_number">전화번호를 입력해 주세요</string>
+    <string name="block_phone_name">이름을 입력해 주세요</string>
+    <string name="block_phone_number_title">차단할 전화번호</string>
+    <string name="block_phone_name_title">이름</string>
+    <string name="mon">월</string>
+    <string name="tue">화</string>
+    <string name="wed">수</string>
+    <string name="thu">목</string>
+    <string name="fri">금</string>
+    <string name="sat">토</string>
+    <string name="sun">일</string>
+    <string name="weekend">주말</string>
+    <string name="all_day">항상 차단</string>
+    <string name="weekday">주중</string>
+    <string name="free">차단 해제</string>
+    <string name="block_week">차단할 요일</string>
+    <string name="block_sms">회신 문자</string>
+    <string name="choose_more">편집 대상을 선택해주세요.</string>
+    <string name="apply">적용</string>
+    <string name="cancel">취소</string>
+    <string name="enable">사용</string>
+    <string name="disable">사용 안 함</string>
+    <string name="message_none">message X</string>
+</resources>

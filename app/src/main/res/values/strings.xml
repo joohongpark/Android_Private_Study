@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">test_layout</string>
+    <string name="bottom_menu_phone_block">block list</string>
+    <string name="bottom_menu_option">settings</string>
+    <string name="bottom_menu_more">more..</string>
+    <string name="block_phone_number">insert phone number</string>
+    <string name="block_phone_name">insert name</string>
+    <string name="block_phone_number_title">phone number</string>
+    <string name="block_phone_name_title">name</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="sun">SUN</string>
+    <string name="weekend">weekend</string>
+    <string name="all_day">all day block</string>
+    <string name="weekday">weekday</string>
+    <string name="free">don\'t block</string>
+    <string name="block_week">block week</string>
+    <string name="block_sms">sms input</string>
+    <string name="choose_more">Choose one.</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="message_none">메세지 X</string>
+</resources>

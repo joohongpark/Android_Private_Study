@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--타이틀 바 제거-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="popupTheme" parent="Theme.AppCompat.DayNight.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--타이틀 바 제거-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <!-- EditText 스타일 -->
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="colorControlNormal">@color/colorPrimaryDark</item> <!-- 포커스 되어있지 않은 경우의 밑줄 부분 -->
+        <item name="colorControlActivated">@color/colorPrimaryDark</item> <!-- 손끝으로 터치되어 있는 부분. text selection handle라고 부른다고 한다 -->
+        <item name="android:textCursorDrawable">@color/colorPrimaryDark</item> <!-- 커서 색. drawable 지정되지만, 색을 설정하는것도 된다 -->
+        <item name="android:textColor">@color/colorPrimaryDark</item> <!-- 텍스트 색 -->
+        <item name="android:textColorHint">@color/colorPrimaryDark</item> <!-- 입력전의 Hint (포커스 Holder) -->
+        <item name="android:textColorHighlight">@color/colorPrimaryDark</item> <!-- 텍스트 선택색 -->
+    </style>
+
+    <!-- 시작화면 스타일 (테스트용) -->
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/layout_splash</item>
+    </style>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/call_block"
+        android:icon="@drawable/icon_call_block"
+        android:title="@string/bottom_menu_phone_block"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/option"
+        android:icon="@drawable/icon_option"
+        android:title="@string/bottom_menu_option"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/etc"
+        android:icon="@drawable/icon_etc"
+        android:title="@string/bottom_menu_more"
+        app:showAsAction="ifRoom"/>
+
+</menu>

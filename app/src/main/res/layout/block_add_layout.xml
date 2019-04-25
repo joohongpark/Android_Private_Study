@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorWhite"
+    android:layout_height="500dp"
+    android:layout_width="300dp">
+
+    <TextView
+        android:id="@+id/block_phone_number_title"
+        android:textColor="@color/colorDark"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/block_phone_number_title" />
+    <com.example.profq.call_block_proto.edit_text_form
+        style="@style/EditTextStyle"
+        android:id="@+id/block_phone_number"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@id/block_phone_number_title"
+        android:hint="@string/block_phone_number" />
+    <TextView
+        android:id="@+id/block_phone_name_title"
+        android:textColor="@color/colorDark"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/block_phone_number"
+        android:text="@string/block_phone_name_title" />
+    <com.example.profq.call_block_proto.edit_text_form
+        style="@style/EditTextStyle"
+        android:id="@+id/block_phone_name"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@id/block_phone_name_title"
+        android:hint="@string/block_phone_name" />
+    <TextView
+        android:id="@+id/block_week_title"
+        android:textColor="@color/colorDark"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/block_phone_name"
+        android:text="@string/block_week" />
+    <LinearLayout
+        android:id="@+id/block_week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/block_week_title"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp" >
+        <ToggleButton
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/sun"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/toggle_selector"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/colorSun"
+            android:textOff="@string/sun"
+            android:textOn="@string/sun" />
+        <ToggleButton
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/mon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/toggle_selector"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/colorDark"
+            android:textOff="@string/mon"
+            android:textOn="@string/mon" />  <ToggleButton
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/mon"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/toggle_selector"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:textColor="@color/colorDark"
+        android:textOff="@string/mon"
+        android:textOn="@string/mon" />
+        <ToggleButton
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/tue"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/toggle_selector"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/colorDark"
+            android:textOff="@string/tue"
+            android:textOn="@string/tue" />
+        <ToggleButton
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/wed"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/toggle_selector"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/colorDark"
+            android:textOff="@string/wed"
+            android:textOn="@string/wed" />
+        <ToggleButton
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/thu"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/toggle_selector"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/colorDark"
+            android:textOff="@string/thu"
+            android:textOn="@string/thu" />
+        <ToggleButton
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/fri"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/toggle_selector"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/colorDark"
+            android:textOff="@string/fri"
+            android:textOn="@string/fri" />
+        <ToggleButton
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/sat"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/toggle_selector"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/colorSat"
+            android:textOff="@string/sat"
+            android:textOn="@string/sat" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/block_sms_title"
+        android:textColor="@color/colorDark"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/block_week"
+        android:text="@string/block_sms" />
+    <com.example.profq.call_block_proto.edit_text_form
+        style="@style/EditTextStyle"
+        android:id="@+id/block_sms"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_below="@id/block_sms_title"
+        android:hint="@string/block_sms" />
+
+    <LinearLayout
+        android:id="@+id/mod_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/block_sms"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="20dp" >
+        <ToggleButton
+            android:id="@+id/enable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:textColor="@color/colorDark"
+            android:textOff="@string/enable"
+            android:textOn="@string/disable" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp" >
+        <Button
+            android:id="@+id/popup_apply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/apply" />
+        <Button
+            android:id="@+id/popup_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</RelativeLayout>
